@@ -95,3 +95,9 @@ footer {
     background: #020617;
     color: #9ca3af;
 }
+.profile-img {
+    width: 180px;      /* size change kar sakte ho */
+    height: 180px;
+    border-radius: 50%;  /* round image */
+    object-fit: cover;
+}
