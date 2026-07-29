@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     margin: 0;
     padding: 0;
@@ -96,7 +96,7 @@ footer {
     background: #020617;
     color: #9ca3af;
 }
-=======
+
 * {
     margin: 0;
     padding: 0;
@@ -140,12 +140,13 @@ nav a:hover {
 
 /* HERO */
 .hero {
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
+    gap: 20px;
 }
 
 .hero span {
@@ -200,4 +201,4 @@ footer {
     border-radius: 50%;  /* round image */
     object-fit: cover;
 }
->>>>>>> 9ae484b4ecfa913d805d2c8bb0b1c964ba2ab7be
+
