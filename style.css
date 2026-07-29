@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -95,3 +96,108 @@ footer {
     background: #020617;
     color: #9ca3af;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    position: sticky;
+    top: 0;
+    background: #0f172a;
+}
+
+.logo {
+    color: #38bdf8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero span {
+    color: #38bdf8;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #9ca3af;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 10%;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.section.light {
+    background: #020617;
+}
+
+/* CARDS */
+.card {
+    background: #020617;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 20px rgba(56,189,248,0.1);
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: #9ca3af;
+}
+.profile-img {
+    width: 180px;      /* size change kar sakte ho */
+    height: 180px;
+    border-radius: 50%;  /* round image */
+    object-fit: cover;
+}
+>>>>>>> 9ae484b4ecfa913d805d2c8bb0b1c964ba2ab7be
